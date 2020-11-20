@@ -6,6 +6,10 @@ numero = int(input("Por favor ingresar un número: \n"))
 lista_num =list()
 
 while numero != 0:
+    
     lista_num.append(numero)
+    numero = int(input("Por favor ingresar un número: \n"))
 
-print(lista_num[:])
+lista_num = .sorted()
+
+print(lista_num)
